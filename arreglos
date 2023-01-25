@@ -1,0 +1,43 @@
+Números ordenados
+#include <iostream> using namespace std;
+int main()
+{
+float vector[10]; int ix;
+
+for (ix=0;ix<10; ix++)
+{
+cout << "introduce un numero" <<ix<<"del arreglo 1"<<endl; cin>>vector[ix];
+}
+
+
+for (ix=10;ix>0; ix--)
+{
+cout<<ix<<",";
+}
+}
+
+//numero mayor
+
+
+#include <iostream> 
+using namespace std; 
+int a,mayor,c,menor; 
+int main()
+{
+cout<<"\ningrese 10 numeros"<<endl; menor=9;
+mayor=10;
+for (c=1;c<10;c++)
+{
+cout <<"digite los numeros"<<endl; cin>>a;
+if(a>mayor)
+{
+mayor=a;
+}
+ 
+}
+
+
+cout <<"el numero mayor es ="<<mayor<<endl;
+
+
+}
